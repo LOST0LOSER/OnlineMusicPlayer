@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../images/bupt.jpg") ;
+	background-position: center 0; 
+	background-repeat: no-repeat;  
+	background-attachment: fixed; 
+	background-size: cover; 
+	-webkit-background-size: cover;  
+	-o-background-size: cover;  
+	-moz-background-size: cover;  
+	-ms-background-size: cover;
+	
+}
+#form {
+	background-color:rgba(255,255,255,0.6);
+}
+.table tbody tr td {
+	vertical-align: middle;
+}
+
+@grid-columns: 12;
+@grid-gutter-width: 30px;
+@grid-float-breakpoint: 768px;

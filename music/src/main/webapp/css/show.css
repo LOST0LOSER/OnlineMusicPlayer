@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.favorite button{
+	color:red;
+}
+.noFavorite button{
+	color:black;
+}
+.table tbody tr td button{
+	background-color:rgba(0,0,0,0);
+}
